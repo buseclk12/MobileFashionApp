@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:layout_margin="40dp"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    >
+
+
+    <TextView
+        android:id="@+id/productItemName"
+        android:layout_width="140dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <Button
+        android:id="@+id/btnProdcutItemDetail"
+        android:layout_width="140dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:background="#D88282"
+        android:backgroundTint="#D88282"
+        android:text="For Details"
+        android:textColor="@color/white"
+        app:strokeColor="#D88282"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+</LinearLayout>

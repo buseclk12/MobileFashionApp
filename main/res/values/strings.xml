@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW2</string>
+    <string name="username_hint" > Username Hint </string>
+    <string name="icon_description" />
+    <string name="password_hint" />
+    <string name="email_hint" />
+    <string name="selectedCount">selectedCount</string>
+</resources>
